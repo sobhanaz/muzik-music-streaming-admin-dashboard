@@ -1,0 +1,38 @@
+.error-bg{
+    h1{
+        font-size: 180px;
+        color: var(--#{$variable-prefix}primary-tint-40)
+    }
+}
+.card.maintenance-card{
+    h1{
+        font-size: 98px;
+        font-weight: 700;
+    }
+    .countdown {
+        li {
+            span {
+                font-size: 40px;
+                display: inline-block;
+                width: 100%;
+                font-weight: 700;
+            }
+        }
+    }
+    
+}
+@include media-breakpoint-down(xl) {
+    .error-bg{
+        h1{
+            font-size: 100px;
+            color: var(--#{$variable-prefix}primary-tint-40)
+        }
+    }
+}
+@include media-breakpoint-down(sm) {
+    .error-bg{
+        h1{
+            font-size: 70px;
+        }
+    }
+}

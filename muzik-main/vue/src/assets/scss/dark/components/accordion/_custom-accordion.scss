@@ -1,0 +1,33 @@
+.accordion{
+    &.custom-accordion {
+        .accordion-item{
+            .accordion-header{
+                .accordion-button {
+                    background: inherit;
+                    &:not(.collapsed){
+                        background-color: inherit;
+                    }
+                }
+            }
+        }
+        .accordion-item {
+            background: inherit;
+        }
+    }
+}
+.accordion{
+    .accordion-item{
+        background-color: $body-bg;
+        .accordion-header{
+            .accordion-button{
+                background-color: $border-color;
+                &:not(.collapsed){
+                    background-color: $border-color;
+                }
+                &:focus{
+                    box-shadow: unset;
+                }
+            }
+        }
+    }
+}

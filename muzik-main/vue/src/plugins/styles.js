@@ -1,0 +1,5 @@
+import 'shepherd.js/dist/css/shepherd.css'
+import 'flatpickr/dist/flatpickr.css'
+import 'choices.js/public/assets/styles/choices.min.css'
+import 'sweetalert2/dist/sweetalert2.min.css'
+import 'hover.css/css/hover-min.css'

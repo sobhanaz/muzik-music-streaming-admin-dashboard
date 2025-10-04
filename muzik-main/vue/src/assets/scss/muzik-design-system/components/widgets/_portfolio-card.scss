@@ -1,0 +1,49 @@
+.card.portfolio-card{
+    color: $white;
+    position: relative;
+    z-index: 9;
+    overflow: hidden;
+    &::before {
+        content: "";
+        height: 300px;
+        width: 300px;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        position: absolute;
+        z-index: -1;
+        background: -webkit-linear-gradient(225deg, var(--bs-dark) 6%, var(--bs-dark) 56%);
+        background: -o-linear-gradient(225deg, var(--bs-dark) 6%, var(--bs-dark) 56%);
+        background: linear-gradient(225deg, var(--bs-dark) 6%, var(--bs-dark) 56%);
+        top: -5em;
+        left: auto;
+        right: -6em;
+        opacity: 0.2;
+    }
+    &:after {
+        content: "";
+        height: 300px;
+        width: 300px;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        position: absolute;
+        z-index: -1;
+        background: -webkit-linear-gradient(225deg, var(--bs-dark) 6%, var(--bs-dark) 56%);
+        background: -o-linear-gradient(225deg, var(--bs-dark) 6%, var(--bs-dark) 56%);
+        background: linear-gradient(225deg, var(--bs-dark) 6%, var(--bs-dark) 56%);
+        top: 74%;
+    left: -5em;
+    opacity: 0.2;
+    }
+    h3{
+        color: $white; 
+    }
+    h4{
+        color: $white; 
+    }
+    h5{
+        color: $white; 
+    }
+    h6{
+        color: $white; 
+    }
+}

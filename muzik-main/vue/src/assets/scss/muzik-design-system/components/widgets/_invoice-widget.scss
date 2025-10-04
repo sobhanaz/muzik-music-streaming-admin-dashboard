@@ -1,0 +1,23 @@
+
+.invoice-card{
+    background-image: url(../../assets/images/shapes/21.png) ;
+    padding: 1em;
+    background-repeat: no-repeat;
+    color: $white;
+    h6{
+        color: $white;
+    }
+    h5{
+        color: $white;
+    }
+    h4{
+        color: $white;
+    }
+}
+
+.invoice-biling{
+    background-image: url(../../assets/images/shapes/20.png) ;
+    padding: 1.5em;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

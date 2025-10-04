@@ -1,0 +1,67 @@
+.play-list-icon {
+	position: absolute;
+	top: 1.25rem;
+	left: 1.25rem;
+}
+
+.common-album {
+	.swiper-button-next {
+		&:after {
+			content: '';
+		}
+		position: absolute;
+		top: -6px;
+		z-index: 10;
+		cursor: pointer;
+		display: flex;
+		align-items: center;
+		color: $headings-color;
+		right: 0px;
+	}
+	.swiper-button-prev {
+		&:after {
+			content: '';
+		}
+		position: absolute;
+		top: -6px;
+		z-index: 10;
+		cursor: pointer;
+		display: flex;
+		align-items: center;
+		color: $primary;
+		right: 30px;
+		left: auto;
+	}
+}
+
+.admin-circle-box {
+	height: 89px;
+	width: 89px;
+	line-height: 89px;
+	background-color: $white;
+	display: block;
+	margin: 0 auto;
+}
+.custom-icon { 
+	color: #AAAAAA;
+}
+
+.iq-profile-badge{
+    position: absolute;
+    bottom: -2px;
+    right: 0;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    border: 2px solid $white;
+}
+.iq-circle {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    background: var(--iq-white);
+    font-size: 20px;
+    box-shadow: 0px 4px 20px 0px rgba(44, 101, 144, 0.1);
+    border-radius: 50%;
+    text-align: center;
+}

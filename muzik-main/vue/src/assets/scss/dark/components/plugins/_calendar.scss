@@ -1,0 +1,87 @@
+.flatpickr-calendar{
+    background: $card-bg;
+    box-shadow: 1px 0 0 rgba($card-bg,.3),-1px 0 0 rgba($card-bg,.3),0 1px 0 rgba($card-bg,.3),0 -1px 0 rgba($card-bg,.3),0 3px 13px rgba($black,0.08);
+    .flatpickr-innerContainer{
+        .flatpickr-rContainer{
+            .flatpickr-weekdays{
+                .flatpickr-weekdaycontainer{
+                    .flatpickr-weekday{
+                        color: $body-color;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.flatpickr-months{
+    .flatpickr-month{
+      color:$body-color ;
+    }
+} 
+.flatpickr-calendar.arrowTop:after,
+.flatpickr-calendar.arrowTop:before{
+    border-bottom-color: $body-color;
+}
+
+.flatpickr-months .flatpickr-next-month, .flatpickr-months .flatpickr-prev-month{
+    color: $body-color;
+    fill: $body-color;
+    &:hover, &:focus{
+        svg{
+            color: $card-bg;
+            fill: $black;
+        }
+    }
+}
+
+.flatpickr-day{
+    color: $body-color;
+    &.today{
+        border-color: rgba($white,.1);
+    }
+    &.selected{
+        background: $card-bg;
+        border-color: $card-bg;
+        color: $white;
+    }
+}
+.flatpickr-day.inRange, .flatpickr-day.nextMonthDay.inRange, .flatpickr-day.nextMonthDay.today.inRange{
+    background: $card-bg;
+    border-color: $card-bg;
+    color: $white;
+}
+.flatpickr-day.nextMonthDay:focus, .flatpickr-day.nextMonthDay:hover, .flatpickr-day.prevMonthDay.inRange, .flatpickr-day.prevMonthDay.today.inRange, .flatpickr-day.prevMonthDay:focus, .flatpickr-day.prevMonthDay:hover{
+    border-color: rgba($white,.3);
+    background: rgba($white,.3);
+    color: rgba($black,.8);
+}
+.flatpickr-day.today.inRange, .flatpickr-day:focus, .flatpickr-day:hover{
+    border-color: $card-bg;
+    background: $card-bg;
+    color: $body-color;
+}
+.flatpickr-day.nextMonthDay,
+.flatpickr-day.flatpickr-disabled{
+    color: rgba($body-color,.5);
+}
+.flatpickr-day.nextMonthDay:hover,
+.flatpickr-day.flatpickr-disabled:hover{
+    border-color: rgba($card-bg,.5);
+    background: rgba($card-bg,.5);
+    color:rgba($body-color,.7);
+}
+
+.flatpickr-day.inRange{
+    box-shadow:-5px 0 0 rgba($card-bg,.3), 5px 0 0 rgba($card-bg,.3)
+}
+
+.dayContainer{
+    .flatpickr-day{
+        &.endRange,&.startRange{
+            background: rgba($body-bg,.6);
+            border-color: $card-bg;
+        }
+
+    }
+}

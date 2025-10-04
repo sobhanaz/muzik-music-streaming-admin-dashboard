@@ -1,0 +1,8 @@
+.fc-button-primary {
+    background-color: var(--#{$variable-prefix}primary) !important;
+    border-color:var(--#{$variable-prefix}primary) !important ;
+}
+.fc-button-primary:not(:disabled):active, .fc-button-primary:not(:disabled).fc-button-active {
+    background-color: var(--bs-primary-shade-40) !important;
+    border-color: var(--bs-primary-shade-40) !important;
+}

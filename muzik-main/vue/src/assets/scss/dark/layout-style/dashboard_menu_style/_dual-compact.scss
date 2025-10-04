@@ -1,0 +1,14 @@
+&.dual-compact{
+    .nav-underline .nav-link:hover {
+        color: var(--#{$variable-prefix}primary);
+      }
+    .nav-underline .active {
+        color: $gray-300;
+      }
+      .nav-scroller{
+        .nav{
+          background-color: $black;
+        }
+      } 
+
+}

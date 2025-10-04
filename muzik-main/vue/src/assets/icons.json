@@ -1,0 +1,492 @@
+[
+    {
+      "name": "adjustment",
+      "title": "Adjustment"
+    },
+    {
+      "name": "analytics",
+      "title": "Analytics"
+    },
+    {
+      "name": "arrow-box-down",
+      "title": "Arrow Box Down"
+    },
+    {
+      "name": "arrow-box-up",
+      "title": "Arrow Box Up"
+    },
+    {
+      "name":"arrow-box-left",
+      "title": "Arrow Box Left"
+    },
+    {
+      "name":"arrow-box-right",
+      "title":"Arrow Box Right"
+    },
+    {
+      "name":"arrow-circle-down",
+      "title":"Arrow Circle Down"
+    },
+    {
+      "name":"arrow-circle-up",
+      "title":"Arrow Circle Up"
+    },
+    {
+      "name":"arrow-circle-left",
+      "title":"Arrow Circle Left"
+    },
+    {
+      "name":"arrow-circle-right",
+      "title":"Arrow Circle Right"
+    },
+    {
+      "name":"arrow-down",
+      "title":"Arrow Down"
+    },
+    {
+      "name":"arrow-horizontal",
+      "title": "Arrow Horizontal"
+    },
+    {
+      "name":"arrow-left",
+      "title":"Arrow Left"
+    },
+    {
+      "name":"arrow-plus",
+      "title":"Arrow Plus"
+    },
+    {
+      "name":"arrow-right",
+      "title":"Arrow Right"
+    },
+    {
+      "name":"arrow-up",
+      "title":"Arrow Up"
+    },
+    {
+      "name":"arrow-vertical",
+      "title":"Arrow Vertical"
+    },
+    {
+      "name":"badge",
+      "title":"Badge"
+    },
+    {
+      "name":"bag",
+      "title":"Bag"
+    },
+    {
+      "name":"bell",
+      "title":"Bell"
+    },
+    {
+      "name":"bookmark",
+      "title":"Bookmark"
+    },
+    {
+      "name":"brief-case",
+      "title":"Brief Case"
+    },
+    {
+      "name":"calendar",
+      "title":"Calendar"
+    },
+    {
+      "name":"call",
+      "title":"Call"
+    },
+    {
+      "name":"call-off",
+      "title":"Call Off"
+    },
+    {
+      "name":"call-ringing",
+      "title":"Call Ringing"
+    },
+    {
+      "name":"camera",
+      "title":"Camera"
+    },
+    {
+      "name":"cart",
+      "title":"Cart"
+    },
+    {
+      "name":"chart-pie",
+      "title":"Chart pie"
+    },
+    {
+      "name":"chart-square-bar",
+      "title":"Chart Square Bar"
+    },
+    {
+      "name":"chat",
+      "title":"Chat"
+    },
+    {
+      "name":"chevron-arrow-down",
+      "title":"Chevron Arrow Down"
+    },
+    {
+      "name":"chevron-arrow-up",
+      "title":"Chevron Arrow Up"
+    },
+    {
+      "name":"chevron-arrow-left",
+      "title":"Chevron Arrow Left"
+    },
+    {
+      "name":"chevron-arrow-right",
+      "title":"Chevron Arrow Right"
+    },
+    {
+      "name":"chevron-down",
+      "title":"Chevron Down"
+    },
+    {
+      "name":"chevron-up",
+      "title":"Chevron Up"
+    },
+    {
+      "name":"chevron-left",
+      "title":"Chevron Left"
+    },
+    {
+      "name":"chevron-right",
+      "title":"Chevron Right"
+    },
+    {
+      "name":"circle-direction",
+      "title":"Circle Direction"
+    },
+    {
+      "name":"circle",
+      "title":"Circle"
+    },
+    {
+      "name":"clock-circle",
+      "title":"Clock Circle"
+    },
+    {
+      "name":"clock-square",
+      "title":"Clock Square"
+    },
+    {
+      "name":"controller",
+      "title":"Controller"
+    },
+    {
+      "name":"crop",
+      "title":"Crop"
+    },
+    {
+      "name":"double-arrow-down",
+      "title":"Doble Arrow Down"
+    },
+     {
+      "name":"double-arrow-up",
+      "title":"Doble Arrow Up"
+    },
+     {
+      "name":"double-arrow-right",
+      "title":"Doble Arrow Right"
+    },
+    {
+      "name":"double-arrow-left",
+      "title":"Doble Arrow Left"
+    },
+    {
+      "name":"document-arrow-down",
+      "title":"Document Arrow Down"
+    },
+    {
+      "name":"document-arrow-up",
+      "title":"Document Arrow Up"
+    },
+    {
+      "name":"document",
+      "title":"Document"
+    },
+    {
+      "name":"document-minus",
+      "title":"Document Minus"
+    },
+    {
+      "name":"document-plus",
+      "title":"Document Plus"
+    },
+    {
+      "name":"document-x",
+      "title":"Document X"
+    },
+    {
+      "name":"document-code",
+      "title":"Document Code"
+    },
+    {
+      "name":"dots-circle-horizontal",
+      "title":"Dots Circle Horizontal"
+    },
+    {
+      "name":"dots-square-horizontal",
+      "title":"Dots Square Horizontal"
+    },
+    {
+      "name":"exclamation-circle",
+      "title":"Exclamation Circle"
+    },
+    {
+      "name":"exclamation-triangle",
+      "title":"Exclamation Triangle"
+    },
+    {
+      "name":"eye-fish",
+      "title":"Eye Fish"
+    },
+    {
+      "name":"eye",
+      "title":"Eye"
+    },
+    {
+      "name":"eye-off",
+      "title":"Eye Off"
+    },
+    {
+      "name":"entry",
+      "title":"Entry"
+    },
+    {
+      "name":"exit",
+      "title":"Exit"
+    },
+    {
+      "name":"file",
+      "title":"File"
+    },
+    {
+      "name":"file-invoice",
+      "title":"File Invoice"
+    },
+    {
+      "name":"filter",
+      "title":"Filter"
+    },
+    {
+      "name":"folder",
+      "title":"Folder"
+    },
+    {
+      "name":"heart",
+      "title":"Heart"
+    },
+    {
+      "name":"home",
+      "title":"Home"
+    },
+    {
+      "name":"key-square",
+      "title":"Key Square"
+    },
+    {
+      "name":"lighting",
+      "title":"Lighting"
+    },
+    {
+      "name":"location-arrow",
+      "title":"Location Arrow"
+    },
+    {
+      "name":"location",
+      "title":"Location"
+    },
+    {
+      "name":"lock-closed",
+      "title":"Lock Closed"
+    },
+    {
+      "name":"lock-open",
+      "title":"Lock Open"
+    },
+    {
+      "name":"message",
+      "title":"Message"
+    },
+    {
+      "name":"microphone",
+      "title":"Microphone"
+    },
+    {
+      "name":"microphone-on",
+      "title":"Microphone On"
+    },
+    {
+      "name":"missed-call",
+      "title":"Missed Call"
+    },
+    {
+      "name":"moon",                      
+      "title":"Moon"
+    },
+    {
+      "name":"i",
+      "title":"I"
+    },
+    {
+      "name":"table",
+      "title":"Table"
+    },
+    {
+      "name":"offer",
+      "title":"Offer"
+    },
+    {
+      "name":"pencil-alt",
+      "title":"Pencil Alt"
+    },
+    {
+      "name":"pencil",
+      "title":"Pencil"
+    },
+    {
+      "name":"photo-gallery",
+      "title":"Photo Gallery"
+    },
+    {
+      "name":"photograph",
+      "title":"Photograph"
+    },
+    {
+      "name":"refresh",
+      "title":"Refresh"
+    },
+    {
+      "name":"refresh-left",
+      "title":"Refresh Left"
+    },
+    {
+      "name":"refresh-right",
+      "title":"Refresh Right"
+    }, 
+    {
+      "name":"save",
+      "title":"Save"
+    },
+    {
+      "name":"save-up",
+      "title":"Save Up"
+    },
+    {
+      "name":"scanner",
+      "title":"Scanner"
+    },
+    {
+      "name":"search",
+      "title":"Search"
+    },
+    {
+      "name":"search-minus",
+      "title":"Search Minus"
+    },
+    {
+      "name":"search-plus",
+      "title":"Search plus"
+    },
+    {
+      "name":"setting",
+      "title":"Setting"
+    },
+    {
+      "name":"shield-check",
+      "title":"Shield Check"
+    },
+    {
+      "name":"shield-x",
+      "title":"Shield X"
+    },
+    {
+      "name":"square-i",
+      "title":"Square I"
+    },
+    {
+      "name":"square-plus",
+      "title":"Square Plus"
+    },
+    {
+      "name":"square-tick",
+      "title":"Square Tick"
+    },
+    {
+      "name":"square-x",
+      "title":"Square X"
+    },
+    {
+      "name":"star",
+      "title":"Star"
+    },
+    {
+      "name":"start",
+      "title":"Start"
+    },
+    {
+      "name":"switch-vertical",
+      "title":"Switch Vertical"
+    },
+    {
+      "name":"ticket",
+      "title":"Ticket"
+    },
+    {
+      "name":"timer",
+      "title":"Timer"
+    },
+    {
+      "name":"trash",
+      "title":"Trash"
+    },
+    {
+      "name":"user-add",
+      "title":"User Add"
+    },
+    {
+      "name":"three-dot",
+      "title":"Three Dot"
+    },
+    {
+      "name":"user-group",
+      "title":"User Group"
+    },
+    {
+      "name":"user",
+      "title":"User"
+    },
+    {
+      "name":"users",
+      "title":"Users"
+    },
+    {
+      "name":"video",
+      "title":"Video"
+    },
+    {
+      "name":"view-grid",
+      "title":"View Grid"
+    },
+    {
+      "name":"volume",
+      "title":"Volume"
+    },      
+    {
+      "name":"volume-off",
+      "title": "Volume Off"
+    },
+    {
+      "name":"volume-on",
+      "title": "Volume On"
+    },
+    {
+      "name":"wallet",
+      "title":"Wallet"
+    }
+    
+    
+  ]

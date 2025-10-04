@@ -1,0 +1,84 @@
+.table {
+	thead {
+		tr {
+			th {
+                background-color: $body-bg;
+				color: $body-color;
+			}
+		}
+	}
+    tbody {
+        tr {
+            td {
+               color: $light;
+            }
+        }
+    }
+}
+.table-striped {
+	>tbody {
+		>tr {
+			&:nth-of-type(even) {
+				>* {
+					--bs-table-accent-bg: #151824;
+				}
+			}
+		}
+	}
+}
+
+
+.fancy-table {
+	table {
+		tbody {
+			tr {
+				td {
+					background-color: $card-bg;
+				}
+			}
+		}
+	}
+}
+table.dataTable.table-striped {
+	>tbody {
+		>tr.odd {
+			--bs-table-accent-bg: $card-bg;
+		}
+	}
+}
+@each $color, $value in $theme-colors {
+	.table {
+		tbody {
+			tr {
+				&.table-#{$color}{
+					td {
+					   color: $dark;
+					}
+				}
+			}
+		}
+	}
+}
+.table-responsive{
+
+	
+.form-select{
+  border-color: rgba($white,.1);
+}
+}
+
+.dataTables_filter{ 
+	.form-control{
+	&:focus{
+      background-color: $body-bg;
+	}
+}
+}
+.page-item {
+	.page-link {
+		border-color : (rgba($white,.1)) !important;
+	}
+}
+.iq-example-row .row>.col{
+	color: $grid-table-color;
+}

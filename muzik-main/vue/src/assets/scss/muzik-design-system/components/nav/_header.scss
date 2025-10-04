@@ -1,0 +1,104 @@
+.sidebar.sidebar-mini+.main-content {
+    .iq-header-img {
+        transition: all 400ms;
+    }
+}
+
+.nav {
+    .search-input {
+        &.input-group {
+            &:focus-within {
+
+                .input-group-text,
+                .form-control {
+                    border-color: var(--#{$variable-prefix}primary-tint-40);
+                }
+            }
+        }
+    }
+}
+
+.all-notification {
+    height: 238px;
+    overflow: auto;
+}
+
+.search-box{
+    width: 507px;
+    margin-left: 126px;
+    margin-right: 16px;
+
+    .search-box-drop{
+        padding: 10px 14px;
+        border: 0.2px solid var(--bs-border-color);
+        border-radius: 5px;
+
+        .search-box-inner{
+            position: relative;
+        }
+
+        .search-box-drop-submit{
+            padding: 0;
+            background: transparent;
+            border: none;
+            outline: none;
+            color: var(--bs-body-color);
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+
+            svg{
+                height: 18px;
+                width: 18px;
+            }
+        }
+
+        input{
+            padding: 0 0 0 30px;
+            color: var(--bs-body-color);
+            background: transparent;
+            font-size: 12px;
+            box-shadow: none;
+            border: none;
+            width: 100%;
+        }
+
+        .search-box-btn{
+            a{
+                font-size: 12px;
+                color: var(--bs-body-color);
+                border: .2px solid $border-color;
+            }
+        }
+    }
+}
+
+.iq-navbar{
+    .search-box{
+        .dropdown{
+            .dropdown-menu{
+                &.sub-drop{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+@include media-breakpoint-down(xxl){
+    .search-box{
+        width: 400px;
+        margin-left: 70px;
+    }
+}
+
+@include media-breakpoint-down(md) {
+    .container-fluid {
+        &.content-inner {
+            &.mt-n5 {
+                margin-top: unset !important;
+            }
+        }
+    }
+}

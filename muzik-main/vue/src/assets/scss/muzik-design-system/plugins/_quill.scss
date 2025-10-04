@@ -1,0 +1,22 @@
+.ql-container.ql-snow{
+    border: 1px solid $input-border-color;
+    border-radius: 0 0 $input-border-radius $input-border-radius ;
+}
+
+.ql-toolbar.ql-snow{
+    border: 1px solid $input-border-color; 
+    border-radius:$input-border-radius $input-border-radius 0 0;   
+}
+
+.ql-snow .ql-picker{
+    color:$body-color;
+}
+
+.ql-snow .ql-stroke{
+    stroke:$body-color;
+}
+
+
+.slides-toolbar+.slides-toolbar{
+    display: none;
+}

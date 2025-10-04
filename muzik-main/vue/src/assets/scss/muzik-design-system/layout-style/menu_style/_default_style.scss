@@ -1,0 +1,26 @@
+
+.sidebar {
+    &.sidebar-default {
+        .nav-link {
+            &:not(.static-item){
+                --shadow-dark-color: var(--#{$variable-prefix}primary-rgb);
+                &.active, &[aria-expanded=true] {
+                    border-radius: .5rem 0rem 0rem .5rem;
+                    border-right: 1.5px solid var(--#{$variable-prefix}primary);
+                    background: linear-gradient(90deg, #FFF2F2 0.07%, rgba(255, 255, 255, 0.00) 99.91%);
+                    color: var(--#{$variable-prefix}primary);
+                    box-shadow: unset;
+                }
+                &:hover {
+                    &:not(.active):not([aria-expanded=true]) {
+                        border-radius: .5rem 0rem 0rem .5rem;
+                        border-right: 1.5px solid var(--#{$variable-prefix}primary);
+                        background: linear-gradient(90deg, #FFF2F2 0.07%, rgba(255, 255, 255, 0.00) 99.91%);
+                        color: var(--#{$variable-prefix}primary);
+                        box-shadow: unset;
+                    }
+                }
+            }
+        }
+    }
+}

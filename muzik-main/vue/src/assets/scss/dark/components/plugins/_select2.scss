@@ -1,0 +1,19 @@
+.select2-container--default .select2-selection--single,
+.select2-container--default .select2-selection--multiple{
+    background-color: $card-bg;
+    border: 1px solid rgba($white,.1)
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered{
+    color: $body-color;
+}
+
+.select2-dropdown{
+    background: $body-bg;
+    border-color: rgba($white,.1)
+}
+.select2-search__field{
+    background: $card-bg;  
+    border-color: rgba($white,.1) !important;
+  
+}
+

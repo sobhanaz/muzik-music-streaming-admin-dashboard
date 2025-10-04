@@ -1,0 +1,9 @@
+.iq-ribbon-effect{
+    background: $body-bg;
+    &:before {
+        border-top: 1.5em solid $body-bg;
+    }
+    &::after{
+        border-top: 1.5em solid $body-bg;
+    }
+}

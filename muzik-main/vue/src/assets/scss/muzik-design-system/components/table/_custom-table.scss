@@ -1,0 +1,78 @@
+.custom-table-effect{
+    .table{
+        tbody{
+            tr{
+                position: relative;
+                &:after{
+                    content: '';
+                    position: absolute;
+                    left: 0;
+                    top: 5%;
+                    height: 0%;
+                    background: var(--#{$variable-prefix}primary);
+                    width: .25rem;
+                    border-top-right-radius: $border-radius;
+                    border-bottom-right-radius: $border-radius;
+                    transition: 300ms ease-in-out;
+                }
+                &:hover{
+                    &:after{
+                        height: 90%;
+                        transition: 300ms ease-in-out;
+                    }
+                }
+                &:last-child{
+                    td{
+                        border-width: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.fancy-table{
+    table{
+        thead{
+            tr {
+                th {
+                    background-color: $body-bg;
+                }
+            }   
+        }
+        tbody{
+            tr{
+                &:nth-child(odd){
+                    td{
+                        &:first-child{
+                            border-top-left-radius: $border-radius;
+                            border-bottom-left-radius: $border-radius;
+                        }
+                        &:last-child{
+                            border-top-right-radius: $border-radius;
+                            border-bottom-right-radius: $border-radius; 
+                        }
+                    }
+                }
+                td{
+                    background-color: $white;
+                    border-bottom-width: 0;
+                }
+            }
+        } 
+    }
+}
+
+.simple-table{
+    table{
+        tbody{
+            tr{
+                &:last-child{
+                    td{
+                        border-bottom-width: 0;
+                    }
+                }
+            }
+        }
+    }
+}

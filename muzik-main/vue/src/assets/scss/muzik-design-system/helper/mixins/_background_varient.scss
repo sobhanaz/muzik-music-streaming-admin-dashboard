@@ -1,0 +1,49 @@
+@mixin bg-variant($parent, $color) {
+  #{$parent} {
+    color: shift-color($color, 10%);
+    background-color: rgba($color,.1) !important;
+  }
+  a#{$parent},
+  button#{$parent} {
+    @include hover-focus() {
+      color: darken($color, 15%);
+      background-color: rgba($color,.3) !important;
+    }
+  }
+}
+
+@mixin bg-variant-dark($parent, $color, $color-name) {
+  #{$parent} {
+    @if $color-name == 'gray'{
+      color:rgba(lighten($color, 40%), 1);
+      background-color: rgba(lighten($color, 50%), .125)!important;
+    } @else if ($color-name == 'dark') {
+      color:rgba(lighten($color, 60%), 1);
+      background-color: rgba(lighten($color, 50%), .125)!important;
+    } @else if ($color-name == 'light') {
+      color:rgba(lighten($color, 40%), 1);
+      background-color: rgba(lighten($color, 50%), .125)!important;
+    } @else {
+      background-color: rgba($color, .1)!important;
+    }
+  }
+  a#{$parent},
+  button#{$parent} {
+    @include hover-focus() {
+      cursor: pointer;
+      @if $color-name == 'gray'{
+        color:rgba(lighten($color, 50%), 1);
+        background-color: rgba(lighten($color, 50%), .15)!important;
+      } @else if ($color-name == 'dark') {
+        color:rgba(lighten($color, 70%), 1);
+        background-color: rgba(lighten($color, 50%), .15)!important;
+      } @else if ($color-name == 'light') {
+        color:rgba(lighten($color, 50%), 1);
+        background-color: rgba(lighten($color, 50%), .15)!important;
+      } @else {
+        color: shift-color($color, 15%);
+        background-color: rgba($color, .15) !important;
+      }
+    }
+  }
+}

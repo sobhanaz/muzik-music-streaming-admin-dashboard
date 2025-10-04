@@ -1,0 +1,140 @@
+.nav{
+    background: $card-bg;
+    .navbar-brand {
+		.logo-title {
+			color: $white;
+		}
+	}
+}
+.iq-navbar {
+    border-color: $border-color;
+    background-color: $heading-bg-color;
+
+    .navbar-brand {
+      .logo-title {
+        color: $white;
+      }
+    }
+    &.nav-glass{
+      background: rgba($card-bg, .5);
+      border-color: $border-color;
+      .nav{
+        background: transparent;
+      }
+    }
+    .dropdown {
+        .dropdown-menu {
+            &.sub-drop {
+                li {
+                    a {
+                        color: $body-color;
+                    }
+                }
+                .iq-sub-card {
+                    color: $body-color;
+                    &:hover{
+                        background: shade-color($primary, 90%)
+                    }
+                    &:not(:last-child) {
+                        border-bottom: $border-width solid $border-color;
+                    }
+                }
+            }
+        }
+    }
+}
+.iq-navbar{
+    &.navs-transparent{
+        background: transparent;
+    }
+}
+.list-group-item{
+    &:not(.list-group-item-action){
+        background-color: unset;
+    }
+}
+.search-box{
+    .search-box-drop{
+        border: 0.2px solid $border-color;
+    }
+    .search-box-drop{
+        .search-box-btn {
+            a {
+                border: 0.2px solid $border-color;
+            }
+        }
+            
+    } 
+}
+@include media-breakpoint-down(xl){
+    .iq-navbar {
+        .navbar-collapse {
+            &:not(.offcanvas-collapse) {
+                background: $card-bg;
+                padding: .5em 0em;
+            }
+        }
+    }
+}
+
+@include media-breakpoint-up(xl) {
+  .iq-navbar {
+    &.navs-transparent, &.nav-glass{
+      .product-offcanvas{
+        .offcanvas{
+          background-color: inherit;
+        }
+      }
+    }
+  }
+}
+
+.tab-bottom-bordered{
+    .nav-tabs {
+        .nav-link.active{
+            background-color: unset;
+            color: var(--#{$variable-prefix}primary);
+            box-shadow: unset;
+        }
+    }
+}
+
+
+ .nav-link {
+    color: $body-color;
+}
+.iq-nav-menu {
+	li {
+		.nav-link{
+            &.active {
+                color: $primary;    
+                &:hover {
+                    color: $primary;
+                }
+            }
+		}
+	}
+}
+
+.iq-nav-menu {
+	li {
+		.nav-link {
+			&:hover {
+				color: $white;
+			}
+		}
+	}
+}
+.nav-link {
+    color: $body-color ;
+}
+
+.nav {
+	.navbar-toggler {
+		.navbar-toggler-icon {
+			.navbar-toggler-bar {
+				background: $white;
+			}
+		}
+	}
+}

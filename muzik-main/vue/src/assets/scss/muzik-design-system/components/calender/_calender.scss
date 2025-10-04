@@ -1,0 +1,19 @@
+
+.calender-one a.fc-day-grid-event.fc-h-event.fc-event.fc-start.fc-end {
+    border-width: 0 0 0 2px;
+    padding: 0.25rem;
+}
+
+@include media-breakpoint-down(md) {
+	.fc-toolbar{
+		flex-wrap: wrap;
+        .fc-left{
+            margin-bottom: 1rem;
+        }
+		.fc-right{
+			.fc-button-group{
+				margin-top: 1rem;
+			}
+		}
+	}
+}

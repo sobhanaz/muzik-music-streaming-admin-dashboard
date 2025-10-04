@@ -1,0 +1,36 @@
+.iq-nav-menu {
+    a{
+        color: $body-color;
+    }
+    li {
+        >ul {
+            background: $card-bg;
+        }
+    }
+}
+
+.iq-navbar {
+    .logo-main{
+        .logo-normal{
+            display: none;
+            &.dark-normal{
+                display: block;
+            }
+        }
+    }
+}
+
+
+@media all and (min-width: 992px) {
+    .navbar {
+        .hover-nav {
+            .nav-item {
+                &:hover {
+                    .nav-link {
+                        color: $white;
+                    }
+                }
+            }
+        }
+    }
+}

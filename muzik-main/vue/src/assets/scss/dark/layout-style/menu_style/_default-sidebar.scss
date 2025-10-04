@@ -1,0 +1,54 @@
+.sidebar {
+    background-color: $card-bg;
+    border-color: $border-color;
+    .navbar-brand {
+        .logo-title {
+            color: $white;
+        }
+    }
+    .sidebar-header {
+        border-color: $border-color;
+    }
+}
+
+.sidebar-list{
+    .navbar-nav{
+        .nav-item{
+            .nav-link.static-item{
+                .default-icon{
+                    color: $light;
+                }
+            }
+        }
+    }
+}
+
+.sidebar-base {
+	.nav-item {
+		.nav-link {
+            &:not(.static-item)[aria-expanded=true] {
+                background: linear-gradient(90deg, #181818 0.07%, #111 0.08%, rgba(17, 17, 17, 0.00) 99.91%);
+                color: $primary;
+            }
+            &:not(.static-item).active {
+                color: $primary;
+                background: linear-gradient(90deg, #181818 0.07%, #111 0.08%, rgba(17, 17, 17, 0.00) 99.91%);
+            }
+			&:not(.disabled) {
+				color: $body-color;
+			}
+		}
+        
+	}
+}
+
+.sidebar.sidebar-color.sidebar-default {
+    .nav-link.active {
+        color: $primary;
+		background-color: $white;
+	}
+	.nav-link[aria-expanded=true] {
+        color: $primary;
+		background-color: $white;
+	}
+}

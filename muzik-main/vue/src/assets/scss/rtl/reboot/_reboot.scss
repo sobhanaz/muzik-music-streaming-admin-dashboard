@@ -1,0 +1,14 @@
+// ol, ul{
+//     padding-right: 0;
+// }
+
+.choices[data-type*=select-one]{
+    &::after{
+        right: auto;
+        left: 11.5px;
+    }
+}
+
+dd{
+    margin-right: 0;
+}

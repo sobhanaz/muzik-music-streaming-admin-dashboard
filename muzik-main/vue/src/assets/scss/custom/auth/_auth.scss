@@ -1,0 +1,199 @@
+.iq-auth-page {
+	position: relative;
+	overflow: hidden;
+	height: 100vh;
+	width: 100%;
+	.container {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+	}
+	.iq-auth-container{
+		height: 100vh;
+	}
+}
+.iq-auth-logo{
+	position: absolute;
+	z-index: 50;
+}
+.iq-banner-logo {
+	min-width: 70rem;
+	max-width: 80rem;
+	height: auto;
+	min-height: 100%;
+	overflow: hidden;
+    position: absolute;
+    z-index: 1;
+	.auth-image{
+		height: 40rem;
+		top: 11rem;
+		position: absolute;
+		left: 7rem;
+		transform: scale(2.5);
+	}
+}
+.iq-link{
+	z-index:1;
+}
+.iq-auth-container{
+	z-index: 10;
+	position: relative;
+}
+
+.container-inside {
+	position: absolute;
+	right: 23rem;
+    top: 7rem;
+	.main-circle{
+		-webkit-animation: circle-small-scale 3s ease-in-out infinite alternate;
+		animation: circle-small-scale 3s ease-in-out infinite alternate;
+		animation-timing-function: cubic-bezier(.6, 0, .4, 1);
+		background: var(--#{$variable-prefix}primary);
+		@if $enable-rounded == true {
+			@include radius-mixin($border-radius-pill);
+		}
+		&.circle-small {
+			animation-delay: 0s;
+			position: absolute;
+			top: 12.5rem;
+			right: -9.375rem;
+			width: 18.75rem;
+			height: 18.75rem;
+			opacity: 0.4;
+		}
+		&.circle-medium {
+			animation-delay: 0.3s;
+			position: absolute;
+			top: 3.125rem;
+			right: -18.75rem;
+			width: 37.5rem;
+			height: 37.5rem;
+			opacity: 0.3;
+		}
+		&.circle-large {
+			animation-delay: 0.6s;
+			position: absolute;
+			top: -6.25rem;
+			right: -28.125rem;
+			width: 56.25rem;
+			height: 56.25rem;
+			opacity: 0.2;
+		}
+		&.circle-xlarge {
+			animation-delay: 0.9s;
+			position: absolute;
+			top: -15.625rem;
+			right: -37.5rem;
+			width: 75rem;
+			height: 75rem;
+			opacity: 0.1;
+		}
+		&.circle-xxlarge {
+			animation-delay: 1.2s;
+			position: absolute;
+			top: -25rem;
+			right: -46.875rem;
+			width: 93.75rem;
+			height: 93.75rem;
+			opacity: 0.05;
+		}
+	}
+}
+@-webkit-keyframes circle-small-scale {
+    0% { -webkit-transform: scale(1.0); }
+    100% { -webkit-transform: scale(1.1); }
+}
+@keyframes circle-small-scale {
+    0% { transform: scale(1.0); }
+    100% { transform: scale(1.1); }
+}
+@media (max-width: 1499.98px){
+	.iq-banner-logo {
+		.auth-image{
+			transform: scale(2.2);
+		}
+	}
+}
+@media (max-width: 1399.98px){
+	.iq-banner-logo {
+		.auth-image{
+			transform: scale(2);
+		}
+	}
+}
+@media (max-width: 1350.98px){
+	.iq-banner-logo {
+		.auth-image{
+			transform: scale(1.5);
+		}
+	}
+}
+@media (max-width: 1199.98px){
+	.iq-banner-logo {
+		.auth-image{
+			left: 1rem;
+		}
+	}
+}
+@media (max-width: 1099.98px){
+	.iq-banner-logo {
+		.auth-image{
+			transform: scale(1.2);
+		}
+	}
+}
+@include media-breakpoint-down(xl) {
+	.iq-auth-page .iq-auth-container{
+		height: 70vh;
+	}
+}
+@include media-breakpoint-down(lg) {
+	.iq-auth-container{
+		.card{
+			max-height: 90vh;
+			height: 100%;
+			overflow-x: hidden;
+		}
+	}
+	.iq-auth-logo{
+		position: static;
+	}
+	.iq-auth-page .iq-auth-container{
+		height: calc(100vh - 54px);
+	}
+	.container-inside {
+		position: relative;
+		right: 0;
+		top: 10%;
+		.main-circle{
+			&.circle-small {
+				right: 0;
+				left: 0;
+				margin: 0 auto;
+			}
+			&.circle-medium {
+				right: 0;
+				left: 0;
+				margin: 0 auto;
+			}
+			&.circle-large {
+				right: 0;
+				left: 0;
+				margin: 0 auto;
+			}
+			&.circle-xlarge {
+				display: none
+			}
+			&.circle-xxlarge {
+				display: none
+			}
+		}
+	}
+}
+.iq-auth-form{
+	background: transparent;
+	position: relative;
+	z-index: 4;
+}

@@ -1,0 +1,37 @@
+$prefix: card-;
+
+&.#{$prefix}transparent{
+    .card, 
+    .card-header,
+    .card-footer,
+    .card .nav {
+        background: transparent;
+        box-shadow: unset !important;
+    }
+    .card{
+        border: 1px solid $border-color;
+    }
+    .card.card-folder:before{
+        border: 1px solid $border-color;
+        backdrop-filter: blur(10px);
+        border-bottom: unset;
+    }
+}
+
+&.#{$prefix}glass{
+    .card, 
+    .card-header,
+    .card-footer,
+    .card .nav {
+        background-color: transparent;
+    }
+    .card{
+        background-color: rgba($card-bg, .5);
+        border: 1px solid $border-color;
+    }
+    .card.card-folder:before{
+        border: 1px solid $border-color;
+        border-bottom: unset;
+        backdrop-filter: unset;
+    }
+}

@@ -1,0 +1,5 @@
+.form-group-filled{
+    .input-group-text, .form-control {
+        background-color: var(--#{$variable-prefix}body-bg);
+    }
+}

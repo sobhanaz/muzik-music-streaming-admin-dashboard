@@ -1,0 +1,32 @@
+.pricing {
+	.table {
+		th {
+			border-color: $border-color;
+			&.bg-light {
+				background: $body-bg !important;
+			}
+		}
+		thead {
+			tr {
+				border-color: $border-color;
+			}
+		}
+		tr {
+			border-color: $border-color;
+		}
+	}
+}
+.prc-box.active .type{
+	color: $white;
+}
+.iq-single-card {
+	&.bg-light {
+		background: $dark !important;
+	}
+}
+.line-around {
+	border-color: $border-color;
+	.line-around-1 {
+		background: $card-bg;
+	}
+}

@@ -1,0 +1,38 @@
+.iq-float-menu{
+    right: auto;
+    left: 0;
+
+    .iq-float-menu-item,
+    .iq-float-menu-open-button{
+        margin-left: 0;
+        margin-right: -40px;
+    }
+
+    .iq-float-menu-open{
+        &:checked {
+            ~.iq-float-menu-item {
+                &:nth-child(4) {
+                    transform: translate3d(50.03006px, -30.33095px, 0)
+                }
+
+                &:nth-child(5) {
+                    transform: translate3d(50.86291px, 20.62064px, 0)
+                }
+            }
+        }
+    }
+
+    .float-menu-rtl-mode{
+        .ltr-mode{
+            display: block;
+            
+            svg{
+                transform: scalex(-1);
+            }
+        }
+
+        .rtl-mode{
+            display: none;
+        }
+    }
+}

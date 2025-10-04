@@ -1,0 +1,47 @@
+.card.weather-card{
+    background-color: $primary;
+    color: $white;
+    position: relative;
+    z-index: 9;
+    overflow: hidden;
+    &::before {
+        content: "";
+        height: 103px;
+        width: 103px;
+        position: absolute;
+        z-index: -1;
+        background-image: url(../../assets/images/shapes/18.png) ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        top: 0.5em;
+        left: auto;
+        right: -2em;
+        opacity: .2;
+    }
+    &:after {
+        content: "";
+        height: 150px;
+        width: 150px;
+        position: absolute;
+        z-index: -1;
+        background-image: url(../../assets/images/shapes/18.png) ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        top: 2em;
+        left: -2em;
+        right: auto;
+        opacity: .2;
+    }
+    h3{
+        color: $white; 
+    }
+    h4{
+        color: $white; 
+    }
+    h5{
+        color: $white; 
+    }
+    h6{
+        color: $white; 
+    }
+}

@@ -1,0 +1,12 @@
+.dropdown-item{
+    &:hover, &:focus{
+        color: var(--#{$variable-prefix}primary-shade-20);
+        border-radius: $border-radius;
+        cursor: pointer;
+    }
+    &.active, &:active{
+        color: var(--#{$variable-prefix}white);
+        border-radius: $border-radius;
+        cursor: pointer;
+    }
+}

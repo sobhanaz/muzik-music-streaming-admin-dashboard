@@ -1,0 +1,81 @@
+.form-control {
+    color: $body-color;
+    background-color: $card-bg;
+    border-color: $border-color;
+    &.is-invalid{
+        border-color: $danger;
+    }
+    &.is-valid{
+        border-color: $success;
+    }
+}
+.form-check-input{
+    color: $body-color;
+    background-color: $card-bg;
+    border-color: $border-color;
+}
+.form-select {
+    border-color: rgba($white , .1);
+    color: $body-color;
+    background-color: $card-bg;
+    &.is-invalid{
+        border-color: $danger;
+    }
+}
+.input-group-text {
+    background-color: $card-bg;
+    border-color: rgba($white,.1);
+}
+
+// .nav {
+//     .search-input{
+//         &.input-group{
+//           &:focus-within{
+//             .form-control + .input-group-text{
+//                 border-color:red;
+//             }
+//             // .input-group-text{
+//             //     border-color:red;
+//             // }
+//           }
+//         }
+//     }
+// } 
+
+.form-control{
+    border: 1px solid rgba(white,.1)
+}
+
+.nav{
+    .search-input{
+        &.input-group{
+            &:focus-within{
+                .input-group-text, .form-control{
+                    border-color:var(--bs-primary-shade-40);
+                }
+            }
+        }
+    }
+}
+
+.stepwizard-row {
+    a {
+        &.btn {
+            color: $body-color;
+            background-color: $body-bg;
+        }
+    }
+}
+#top-tabbar-vertical {
+    li {
+        a {
+            color: $body-color;
+            background-color: $body-bg;
+        }
+    }
+}
+.custom-form-floating>.form-control:focus~label, 
+.custom-form-floating>.form-control:not(:placeholder-shown)~label, 
+.custom-form-floating>.form-select~label{
+    background-color: $card-bg;
+}

@@ -1,0 +1,77 @@
+.sidebar-default.left-bordered {
+    .navbar-nav{
+        &:not(.sub-nav) {
+            >.nav-item {
+                &.active {
+                    &::before {
+                        background-color: var(--#{$variable-prefix}primary);
+                    }
+                }
+            }
+        }
+        .nav-item {
+            .nav-link{
+                &:not(.disabled) {
+                    &.active, &[aria-expanded=true] {
+                        background: unset;
+                        box-shadow: none;
+                        color: var(--#{$variable-prefix}primary);
+                    }
+                    &:hover {
+                        background: unset !important;
+                        box-shadow: none;
+                        color: var(--#{$variable-prefix}primary);
+                        &:not(.active){
+                            &:not([aria-expanded=true]){
+                                background-color: unset;
+                                color: var(--#{$variable-prefix}primary);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.sidebar-color{
+        .navbar-nav{
+            &:not(.sub-nav) {
+                >.nav-item {
+                    &.active {
+                        &::before {
+                            background-color: var(--#{$variable-prefix}white);
+                        }
+                    }
+                }
+            }
+            .nav-item {
+                .nav-link{
+                    &:not(.disabled) {
+                        &.active, &[aria-expanded=true] {
+                            color: var(--#{$variable-prefix}white);
+                        }
+                        &:hover {
+                            color: var(--#{$variable-prefix}white);
+                            &:not(.active){
+                                &:not([aria-expanded=true]){
+                                    color: var(--#{$variable-prefix}white);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.sidebar-border-profile-card{
+    .sidebar-border-profile-body{
+        .sidebar-border-data{
+            &.sidebar-border-title{
+                color: $white;
+            }
+        }
+    }
+}
+.notification-alert{
+    border-color: $card-bg;
+}

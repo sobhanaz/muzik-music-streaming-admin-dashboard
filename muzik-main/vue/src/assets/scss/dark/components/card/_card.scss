@@ -1,0 +1,55 @@
+.card {
+    background: $card-bg;
+    .card-header, .card-footer {
+        background-color: $card-bg;
+        border-bottom-color: $border-color;
+    }
+    .card{
+        border: 1px solid $border-color;
+    }
+}
+
+.card-footer{
+    border-top: 1px solid $border-color;
+}
+.card-box{
+    &.bg-soft-danger{
+        background: $danger !important;
+        color: $white !important;
+    }
+    .text-danger{
+        color: #ffb9b9 !important;
+    }
+    &.bg-soft-warning{
+        background: $warning !important;
+        color: $white !important;
+    }
+    .text-warning{
+        color: #fff2d0 !important;
+    }
+    &.bg-soft-info{
+        background: $info !important;
+        color: $white !important;
+    }
+    .text-info{
+        color: #dbe2ff !important;
+    }
+    &.bg-soft-success{
+        background: $success !important;
+        color: $white !important;
+    }
+    .text-success{
+        color: #b3ffb2 !important;
+    }
+    .text-body{
+        color: $body-color !important;
+    }
+    &.bg-soft-tertiray{
+        background: $tertiray !important;
+        color: $white !important;
+    }
+    .text-tertiray{
+        color: var($tertiray, 0.1) !important;
+    }
+}
+

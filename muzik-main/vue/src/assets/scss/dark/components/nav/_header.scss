@@ -1,0 +1,13 @@
+@include media-breakpoint-up(xl) {
+    .iq-nav-menu {
+        a {
+            li {
+                >ul {
+                    background: $card-bg;
+                }
+            }
+        }
+    }
+
+}
+

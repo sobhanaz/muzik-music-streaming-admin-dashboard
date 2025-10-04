@@ -1,0 +1,15 @@
+.card {
+	.card-body {
+		.iq-media-group-1 {
+			.iq-media-1 {
+				&:first-child {
+                    margin-left: -1.25rem;
+				}
+			}
+		}
+	}
+}
+.visa-card-widget .master-card-content .master-card-2 {
+    margin-right: -2rem;
+    opacity: .7;
+}

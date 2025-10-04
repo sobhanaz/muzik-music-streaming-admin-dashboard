@@ -1,0 +1,36 @@
+.iq-ribbon-effect{
+    position: absolute;
+    display: flex;
+    background: $white;
+    z-index: 100;
+    left: 2rem;
+    top: 0rem;
+    padding: 0.625rem;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    white-space: nowrap;
+    text-transform: UPPERCASE;
+    >span{
+        transform: rotate(180deg);
+    }
+    &::after{
+        content: "";
+        position: absolute;
+        bottom: -1.5em;
+        right: 0;
+        width: 0;
+        height: 0;
+        border-top: 1.5em solid $white;
+        border-left: 1.5em solid transparent;
+    }
+    &:before {
+        content: "";
+        position: absolute;
+        bottom: -1.5em;
+        left: 0;
+        width: 0;
+        height: 0;
+        border-top: 1.5em solid $white;
+        border-right: 1.5em solid transparent;
+    }
+}

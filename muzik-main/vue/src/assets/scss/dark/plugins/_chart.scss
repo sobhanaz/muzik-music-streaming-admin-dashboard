@@ -1,0 +1,25 @@
+.apexcharts-svg{
+    .apexcharts-yaxis-texts-g{
+        text{
+            fill:$secondary;
+        }
+    }
+    .apexcharts-xaxis-texts-g{
+        text{
+            fill:$secondary;
+        }
+    }
+}
+.choices.is-disabled {
+	.choices__inner {
+		background-color: $card-bg;
+	}
+	.choices__input {
+		background-color: $card-bg;
+	}
+}
+.choices[data-type*=select-one] {
+	&:after {
+		border-color: $body-color transparent transparent;
+	}
+}

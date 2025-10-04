@@ -1,0 +1,10 @@
+a{
+    color: var(--#{$variable-prefix}primary);
+    &:hover{
+        color: var(--#{$variable-prefix}primary-shade-20);
+    }
+}
+
+// h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6{
+//     color: var(--#{$variable-prefix}primary-shade-80);
+// }

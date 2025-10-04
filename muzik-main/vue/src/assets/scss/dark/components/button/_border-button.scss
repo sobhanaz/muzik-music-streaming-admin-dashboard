@@ -1,0 +1,23 @@
+.btn-border {
+    border: $border-width * 2 solid $border-color;
+    &:hover {
+        border-color: lighten($border-color, 20%);
+    }
+    &.active {
+        border-color: var(--#{$variable-prefix}primary);
+    }
+}
+aside.bd-aside{
+    .btn:hover, .btn:focus, .active, a:hover{
+        color: $white;
+        background-color: $body-bg;
+        box-shadow: unset;
+    }
+}
+.btn{
+    &.btn-soft-primary{
+        &:hover, &:focus, &:active{
+            border-color: rgba(var(--#{$variable-prefix}primary-rgb), .2) !important;
+        }
+    }
+}

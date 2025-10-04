@@ -1,0 +1,15 @@
+.choices__inner{
+    background-color:  $card-bg;
+    border-color: rgba($white , .1);
+    &:hover{
+        border-color: var(--bs-primary-shade-40);
+    }
+}
+.choices__input{
+    background-color:  $card-bg;
+}
+.choices__list--dropdown{
+    border-color: rgba($white , .1);
+    background-color: $card-bg;
+    color: var(--bs-body-color);
+}

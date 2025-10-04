@@ -1,0 +1,24 @@
+/*!
+* Version: 1.0.0
+* Muzik
+* Author: iqonic.design
+* Design and Developed by: iqonic.design
+* NOTE: This file contains the styling for Template.
+*
+*/
+
+// Configuration
+@import "./bootstrap/functions";
+// Variables
+@import "./muzik-design-system/variable";
+@import "./muzik-design-system/variables/index";
+@import "./bootstrap/variables";
+
+@import "./bootstrap/mixins";
+
+// muzik Design System Mixin And Helper
+@import "./muzik-design-system/helper/functions";
+@import "./muzik-design-system/helper/mixins";
+@import "./muzik-design-system/helper/reboot";
+
+@import "./dark/index";

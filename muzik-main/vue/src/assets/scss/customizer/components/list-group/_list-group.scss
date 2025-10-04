@@ -1,0 +1,37 @@
+@each $color in $colors-name {
+    .list-group-item.list-group-item-#{$color}{
+        color: var(--#{$variable-prefix}#{$color}-shade-40);
+        background-color: var(--#{$variable-prefix}#{$color}-tint-80);
+        &.list-group-item-action{
+            &:not(.active){
+                &:hover, &:focus{
+                    color: var(--#{$variable-prefix}#{$color}-shade-40);
+                    background-color: var(--#{$variable-prefix}#{$color}-tint-60);
+                }
+            }
+        }
+    }
+}
+.list-group-item{
+    &.active{
+        background-color: var(--#{$variable-prefix}primary);
+        border-color: var(--#{$variable-prefix}primary);
+        color: var(--#{$variable-prefix}white)
+    }
+}
+
+@each $color in $colors-name {
+    .list-group{
+        .list-group-item{
+            &.list-group-item-action{
+                &.list-group-item-#{$color} {
+                    background-color: rgba(var(--#{$variable-prefix}#{$color}-rgb), 10%);
+                    &:hover{
+                        background-color: rgba(var(--#{$variable-prefix}#{$color}-rgb), 20%);
+                        color: $color;
+                    }
+                }
+            }
+        }
+    }
+}

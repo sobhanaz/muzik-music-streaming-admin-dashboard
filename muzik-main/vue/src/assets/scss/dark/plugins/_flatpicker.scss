@@ -1,0 +1,41 @@
+.flatpickr-months{
+    .flatpickr-prev-month{
+        >svg{
+            fill: $card-bg;
+            color: $card-bg;
+            &:hover{
+                fill: var(--bs-primary-shade-40) !important;
+                color: var(--bs-primary-shade-40) !important;
+            }
+        }
+    }
+}
+
+.course-picker {
+	.flatpickr-months {
+		.flatpickr-next-month {
+			svg {
+				color: var(--bs-primary-shade-40) !important;
+				fill: var(--bs-primary-shade-40) !important;
+			}
+			&:hover {
+				svg {
+					fill: var(--bs-primary-shade-40) !important;
+					color: var(--bs-primary-shade-40) !important;
+				}
+			}
+		}
+		.flatpickr-prev-month {
+			svg {
+				color: var(--bs-primary-shade-40) !important;
+				fill: var(--bs-primary-shade-40) !important;
+			}
+			&:hover {
+				svg {
+					fill: var(--bs-primary-shade-40) !important;
+					color: var(--bs-primary-shade-40) !important;
+				}
+			}
+		}
+	}
+}
